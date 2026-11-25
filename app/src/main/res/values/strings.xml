@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wellbeing Lock</string>
+    <string name="accessibility_service_description">Enforces strict daily app timers, launch count limits, Focus Mode locks, and anti-bypass protection against tampering in Settings.</string>
+    <string name="device_admin_label">Wellbeing Lock Uninstall Shield</string>
+    <string name="device_admin_description">Prevents uninstalling Wellbeing Lock to bypass active daily app timers or Focus Mode locks.</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_limits">Limits</string>
+    <string name="nav_focus">Focus</string>
+    <string name="nav_guard">Guard</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Digital Wellbeing</string>
+    <string name="dashboard_today">Today</string>
+    <string name="dashboard_screen_time">Screen time</string>
+    <string name="dashboard_unlocks">Unlocks</string>
+    <string name="dashboard_launches">Launches</string>
+    <string name="dashboard_active_rules">Active limits</string>
+    <string name="dashboard_weekly_title">Past 7 days</string>
+    <string name="dashboard_apps_title">App activity</string>
+    <string name="dashboard_no_usage_permission_title">Usage access required</string>
+    <string name="dashboard_no_usage_permission_body">Grant Android Usage Access so Wellbeing Lock can display real screen time, device unlocks, and per-app launch counts.</string>
+    <string name="dashboard_grant_access">Grant Access</string>
+    <string name="dashboard_empty_day">No recorded app activity for this day.</string>
+
+    <!-- App Timers & Launch Limits -->
+    <string name="limits_title">App Limits</string>
+    <string name="limits_subtitle">Decreases apply immediately. Increases and removals wait until 00:00 tomorrow.</string>
+    <string name="limits_search_hint">Search installed apps…</string>
+    <string name="limits_filter_all">All apps</string>
+    <string name="limits_filter_limited">Limited</string>
+    <string name="limits_time_limit">Daily time limit</string>
+    <string name="limits_launch_limit">Daily launch limit</string>
+    <string name="limits_save">Save Rule</string>
+    <string name="limits_cancel">Cancel</string>
+    <string name="limits_remove">Remove limit</string>
+    <string name="limits_immediate_note">Stricter change: takes effect immediately.</string>
+    <string name="limits_next_day_note">Looser change: takes effect tomorrow at 00:00.</string>
+    <string name="limits_trigger_warning">Current usage already meets this limit. Saving will lock the app and Wellbeing Lock until 00:00.</string>
+
+    <!-- Focus Mode -->
+    <string name="focus_title">Focus Mode</string>
+    <string name="focus_subtitle">Blocks selected apps completely. Active modes cannot be edited, paused, or deleted until finished.</string>
+    <string name="focus_add">New Focus Mode</string>
+    <string name="focus_empty_title">No Focus Modes yet</string>
+    <string name="focus_empty_body">Create a daily schedule or a one-time strict Focus session to block distracting apps with zero bypasses.</string>
+    <string name="focus_active_badge">ACTIVE • LOCKED</string>
+    <string name="focus_scheduled_badge">SCHEDULED</string>
+    <string name="focus_paused_badge">OFF</string>
+    <string name="focus_type_daily">Daily schedule</string>
+    <string name="focus_type_once">One-time session</string>
+
+    <!-- Anti-Bypass Guard -->
+    <string name="guard_title">Anti-Bypass Guard</string>
+    <string name="guard_subtitle">System permissions and active defenses that stop circumvention once limits are hit.</string>
+    <string name="guard_settings_shield">Settings &amp; Uninstall Shield</string>
+    <string name="guard_clock_tamper">Monotonic Clock Integrity</string>
+    <string name="guard_split_screen">Multi-Window &amp; PiP Guard</string>
+    <string name="guard_next_day_rule">Next-Day Increase Lock</string>
+    <string name="guard_self_lock_rule">Dual Self-Lockout on Breach</string>
+
+    <!-- Lockout Screens -->
+    <string name="self_lock_title">Wellbeing Lock is Locked</string>
+    <string name="self_lock_subtitle">A daily limit was reached today. Editing and controls remain strictly locked until midnight with no unlock option.</string>
+    <string name="blocked_app_title">App Strictly Blocked</string>
+    <string name="blocked_return_home">Return to Home</string>
+    <string name="blocked_no_unlock_notice">No snooze, override, or unlock option is available.</string>
+    <string name="guard_notification_channel">Strict Guard Status</string>
+    <string name="guard_notification_title">Wellbeing Lock Guard Active</string>
+    <string name="guard_notification_body">Monitoring active app timers, launch caps, and Focus schedules.</string>
+</resources>

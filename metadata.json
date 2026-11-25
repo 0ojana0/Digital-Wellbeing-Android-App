@@ -1,0 +1,6 @@
+{
+  "name": "Wellbeing Lock",
+  "description": "Strict open-source-style Android Digital Wellbeing app with uneditable app timers, launch count limiters, strict Focus Mode schedules, dual self-lockout, and anti-bypass guards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
